@@ -2,6 +2,7 @@ FROM macadmins/sal:latest
 MAINTAINER Niels Højen <niels@hojen.net>
 
 RUN apt-get update && apt-get install -y python-pip
+RUN pip install -U setuptools
 #RUN pip install django-azure-ad-auth
 RUN pip install django-auth-adfs
 
