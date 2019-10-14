@@ -2,7 +2,7 @@
 from sal.system_settings import *
 from sal.settings_import import *
 
-AUTHENTICATION_BACKENDS += ('django_auth_adfs.backend.AdfsAuthCodeBackend'),
+AUTHENTICATION_BACKENDS = ('django_auth_adfs.backend.AdfsAuthCodeBackend'),
 
 INSTALLED_APPS += ('django_auth_adfs'),
 
