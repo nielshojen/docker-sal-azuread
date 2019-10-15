@@ -1,4 +1,4 @@
-FROM macadmins/sal:latest
+FROM macadmins/sal:3.3.16
 MAINTAINER Niels Højen <niels@hojen.net>
 
 RUN apt-get update && apt-get install -y python-pip
